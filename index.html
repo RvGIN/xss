@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: flex-end;
+            padding: 1rem;
+            gap: 1rem;
+        }
+        
+        .header a {
+            color: #000;
+            text-decoration: none;
+            font-size: 13px;
+        }
+        
+        .header a:hover {
+            text-decoration: underline;
+        }
+        
+        .main {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: -100px;
+        }
+        
+        .logo {
+            margin-bottom: 2rem;
+            font-size: 5rem;
+            font-weight: bold;
+            color: #4285f4;
+        }
+        
+        .search-box {
+            width: 580px;
+            height: 44px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            padding: 0 1rem;
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        
+        .search-box:hover {
+            box-shadow: 0 1px 6px rgba(32,33,36,.28);
+        }
+        
+        .search-input {
+            flex-grow: 1;
+            height: 34px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+        }
+        
+        .buttons {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .button {
+            background-color: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            color: #3c4043;
+            font-size: 14px;
+            padding: 0 16px;
+            height: 36px;
+            cursor: pointer;
+        }
+        
+        .button:hover {
+            border-color: #dadce0;
+            box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        }
+        
+        .footer {
+            background-color: #f2f2f2;
+            padding: 1rem;
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            font-size: 14px;
+            color: #70757a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="#">Gmail</a>
+            <a href="#">圖片</a>
+        </div>
+        
+        <div class="main">
+            <div class="logo">Google</div>
+            <div class="search-box">
+                <input type="text" class="search-input">
+            </div>
+            <div class="buttons">
+                <button class="button">Google 搜尋</button>
+                <button class="button">好手氣</button>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="footer-content">
+                <div>
+                    <span>Taiwan</span>
+                </div>
+                <div>
+                    <span>隱私權</span>
+                    <span style="margin: 0 1rem;">服務條款</span>
+                    <span>設定</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+      alert('資安破口是你!!!') 
+    </script>
+</body>
+</html>
